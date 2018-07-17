@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="XMGridSectionHeaderView" id="U6b-Vx-4bR" customClass="XMGridSectionHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jde-dg-G8E">
+                    <rect key="frame" x="15" y="5" width="3" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="3" id="7MK-A0-OY6"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日常" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xxa-nH-ihN">
+                    <rect key="frame" x="28" y="0.0" width="35" height="50"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Xxa-nH-ihN" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="0pa-2k-Me4"/>
+                <constraint firstItem="Xxa-nH-ihN" firstAttribute="leading" secondItem="jde-dg-G8E" secondAttribute="trailing" constant="10" id="F7K-Mb-upE"/>
+                <constraint firstAttribute="bottom" secondItem="Xxa-nH-ihN" secondAttribute="bottom" id="NMg-yq-Sux"/>
+                <constraint firstItem="jde-dg-G8E" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="15" id="NkN-rm-fzT"/>
+                <constraint firstItem="jde-dg-G8E" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="5" id="T1C-xK-GzV"/>
+                <constraint firstAttribute="bottom" secondItem="jde-dg-G8E" secondAttribute="bottom" constant="5" id="uUB-19-Z9Z"/>
+            </constraints>
+            <connections>
+                <outlet property="titleLbl" destination="Xxa-nH-ihN" id="hw1-G0-CpF"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+</document>

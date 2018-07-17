@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XMGridViewController.h
 //  XMGridMoveLayout
 //
 //  Created by 钱海超 on 2018/7/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface XMGridViewController : UIViewController
 
 @end
-

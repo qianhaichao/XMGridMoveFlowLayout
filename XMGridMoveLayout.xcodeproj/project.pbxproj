@@ -8,24 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		CA2D14DB20FDC3D500F54F8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D14DA20FDC3D500F54F8E /* AppDelegate.m */; };
-		CA2D14DE20FDC3D500F54F8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D14DD20FDC3D500F54F8E /* ViewController.m */; };
 		CA2D14E120FDC3D500F54F8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2D14DF20FDC3D500F54F8E /* Main.storyboard */; };
 		CA2D14E320FDC3D700F54F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2D14E220FDC3D700F54F8E /* Assets.xcassets */; };
 		CA2D14E620FDC3D700F54F8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2D14E420FDC3D700F54F8E /* LaunchScreen.storyboard */; };
 		CA2D14E920FDC3D700F54F8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D14E820FDC3D700F54F8E /* main.m */; };
+		CA2D14F520FDC43E00F54F8E /* XMGridMoveFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D14F420FDC43E00F54F8E /* XMGridMoveFlowLayout.m */; };
+		CA2D14F920FDC8AE00F54F8E /* XMGridCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D14F720FDC8AE00F54F8E /* XMGridCollectionCell.m */; };
+		CA2D14FA20FDC8AE00F54F8E /* XMGridCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA2D14F820FDC8AE00F54F8E /* XMGridCollectionCell.xib */; };
+		CA2D14FD20FDCA9800F54F8E /* XMGridModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D14FC20FDCA9800F54F8E /* XMGridModel.m */; };
+		CA2D150020FDCCA800F54F8E /* XMGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D14FF20FDCCA800F54F8E /* XMGridViewController.m */; };
+		CA2D150420FDCD7A00F54F8E /* XMGridSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D150220FDCD7A00F54F8E /* XMGridSectionHeaderView.m */; };
+		CA2D150520FDCD7A00F54F8E /* XMGridSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA2D150320FDCD7A00F54F8E /* XMGridSectionHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA2D14D620FDC3D500F54F8E /* XMGridMoveLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMGridMoveLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA2D14D920FDC3D500F54F8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA2D14DA20FDC3D500F54F8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA2D14DC20FDC3D500F54F8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA2D14DD20FDC3D500F54F8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CA2D14E020FDC3D500F54F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA2D14E220FDC3D700F54F8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA2D14E520FDC3D700F54F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA2D14E720FDC3D700F54F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA2D14E820FDC3D700F54F8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA2D14F320FDC43E00F54F8E /* XMGridMoveFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGridMoveFlowLayout.h; sourceTree = "<group>"; };
+		CA2D14F420FDC43E00F54F8E /* XMGridMoveFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGridMoveFlowLayout.m; sourceTree = "<group>"; };
+		CA2D14F620FDC8AE00F54F8E /* XMGridCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGridCollectionCell.h; sourceTree = "<group>"; };
+		CA2D14F720FDC8AE00F54F8E /* XMGridCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGridCollectionCell.m; sourceTree = "<group>"; };
+		CA2D14F820FDC8AE00F54F8E /* XMGridCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XMGridCollectionCell.xib; sourceTree = "<group>"; };
+		CA2D14FB20FDCA9800F54F8E /* XMGridModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGridModel.h; sourceTree = "<group>"; };
+		CA2D14FC20FDCA9800F54F8E /* XMGridModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGridModel.m; sourceTree = "<group>"; };
+		CA2D14FE20FDCCA800F54F8E /* XMGridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGridViewController.h; sourceTree = "<group>"; };
+		CA2D14FF20FDCCA800F54F8E /* XMGridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGridViewController.m; sourceTree = "<group>"; };
+		CA2D150120FDCD7A00F54F8E /* XMGridSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGridSectionHeaderView.h; sourceTree = "<group>"; };
+		CA2D150220FDCD7A00F54F8E /* XMGridSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGridSectionHeaderView.m; sourceTree = "<group>"; };
+		CA2D150320FDCD7A00F54F8E /* XMGridSectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XMGridSectionHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +74,12 @@
 		CA2D14D820FDC3D500F54F8E /* XMGridMoveLayout */ = {
 			isa = PBXGroup;
 			children = (
+				CA2D14F220FDC3FA00F54F8E /* Controller */,
+				CA2D14F120FDC3F400F54F8E /* View */,
+				CA2D14F020FDC3EF00F54F8E /* Model */,
+				CA2D14EF20FDC3E000F54F8E /* XMGridMoveLayout */,
 				CA2D14D920FDC3D500F54F8E /* AppDelegate.h */,
 				CA2D14DA20FDC3D500F54F8E /* AppDelegate.m */,
-				CA2D14DC20FDC3D500F54F8E /* ViewController.h */,
-				CA2D14DD20FDC3D500F54F8E /* ViewController.m */,
 				CA2D14DF20FDC3D500F54F8E /* Main.storyboard */,
 				CA2D14E220FDC3D700F54F8E /* Assets.xcassets */,
 				CA2D14E420FDC3D700F54F8E /* LaunchScreen.storyboard */,
@@ -69,6 +87,46 @@
 				CA2D14E820FDC3D700F54F8E /* main.m */,
 			);
 			path = XMGridMoveLayout;
+			sourceTree = "<group>";
+		};
+		CA2D14EF20FDC3E000F54F8E /* XMGridMoveLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CA2D14F320FDC43E00F54F8E /* XMGridMoveFlowLayout.h */,
+				CA2D14F420FDC43E00F54F8E /* XMGridMoveFlowLayout.m */,
+			);
+			path = XMGridMoveLayout;
+			sourceTree = "<group>";
+		};
+		CA2D14F020FDC3EF00F54F8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA2D14FB20FDCA9800F54F8E /* XMGridModel.h */,
+				CA2D14FC20FDCA9800F54F8E /* XMGridModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA2D14F120FDC3F400F54F8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA2D14F620FDC8AE00F54F8E /* XMGridCollectionCell.h */,
+				CA2D14F720FDC8AE00F54F8E /* XMGridCollectionCell.m */,
+				CA2D14F820FDC8AE00F54F8E /* XMGridCollectionCell.xib */,
+				CA2D150120FDCD7A00F54F8E /* XMGridSectionHeaderView.h */,
+				CA2D150220FDCD7A00F54F8E /* XMGridSectionHeaderView.m */,
+				CA2D150320FDCD7A00F54F8E /* XMGridSectionHeaderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA2D14F220FDC3FA00F54F8E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA2D14FE20FDCCA800F54F8E /* XMGridViewController.h */,
+				CA2D14FF20FDCCA800F54F8E /* XMGridViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +186,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2D150520FDCD7A00F54F8E /* XMGridSectionHeaderView.xib in Resources */,
+				CA2D14FA20FDC8AE00F54F8E /* XMGridCollectionCell.xib in Resources */,
 				CA2D14E620FDC3D700F54F8E /* LaunchScreen.storyboard in Resources */,
 				CA2D14E320FDC3D700F54F8E /* Assets.xcassets in Resources */,
 				CA2D14E120FDC3D500F54F8E /* Main.storyboard in Resources */,
@@ -141,9 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA2D14DE20FDC3D500F54F8E /* ViewController.m in Sources */,
+				CA2D14F920FDC8AE00F54F8E /* XMGridCollectionCell.m in Sources */,
+				CA2D150420FDCD7A00F54F8E /* XMGridSectionHeaderView.m in Sources */,
+				CA2D14F520FDC43E00F54F8E /* XMGridMoveFlowLayout.m in Sources */,
 				CA2D14E920FDC3D700F54F8E /* main.m in Sources */,
+				CA2D14FD20FDCA9800F54F8E /* XMGridModel.m in Sources */,
 				CA2D14DB20FDC3D500F54F8E /* AppDelegate.m in Sources */,
+				CA2D150020FDCCA800F54F8E /* XMGridViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
